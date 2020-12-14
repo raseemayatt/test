@@ -1,0 +1,50 @@
+.dr-image{
+    width: 10%;
+    border-radius: 50px;
+  }
+  .slot-table .ant-table-thead > tr > th,
+  .customer-name{
+      font-weight: 600;
+  }
+  .slot-table{
+      padding: 10px;
+  }
+  .timeslot-header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.time-slot-layout .loader-slot {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+}
+
+.user-details {
+    align-items: center;
+    /* align-self: center; */
+    display: flex;
+    flex-direction: column;
+}
+.user-item {
+    font-weight: 600;
+    margin-top: 10px;
+}
+.address{
+    border-radius: 10px;
+    padding: 25px;
+    background: #f2f2f2;
+    margin: 25px;
+}
+.info-heaading{
+    font-weight: 700;
+    font-size: 20px;
+}
+.center-align,
+.center-align .ant-form-item-control-input-content{
+    display: flex;
+    justify-content: center;
+}
